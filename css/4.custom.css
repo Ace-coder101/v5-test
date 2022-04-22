@@ -1,0 +1,91 @@
+.bg-green {
+    background-image: url(../images/values-bg.jpg);
+    color: var(--baseLight);
+}
+.bgfooter {
+  background-color: var(--baseLight);
+}
+.centre {
+  display: grid;
+  justify-content: center;
+}
+.footer-top {
+  padding-top: 1em;
+}
+.value {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+.value h1 {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 2.5em;
+  padding: .4em 0;
+}
+.landing {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  align-items: center;
+}
+.phone {
+  padding: 1em;
+  width: 90%;
+}
+.register label {
+  display: inline;
+}
+.register div {
+  margin: .5em 0;
+}
+.register input[type="email"],
+.register input[type="number"],
+.register input[type="search"],
+.register input[type="text"],
+.register input[type="tel"],
+.register input[type="url"],
+.register input[type="password"],
+.register textarea {
+  box-shadow: 5px 5px 10px #aaa inset;
+  width: 100%;
+}
+.login {
+  border: 1px solid var(--baseLight);
+  border-radius: .5em;
+  padding: 1em;
+}
+.foot a {
+  font-family: 'Roboto Slab',!important;
+  color: rgb(0, 34, 15);
+  text-decoration: none;
+}
+.foot a:visited {
+  color: none;
+}
+footer ul {
+  list-style-type: none;
+}
+@media  screen and (min-width:37em) {
+  .landing {
+    grid-template-columns: 1fr 1fr;
+
+  }
+}
+@media  screen and (min-width:48em) {
+  .landing {
+    grid-template-columns: 2fr 1fr;
+  
+  }
+  .value h1 {
+    font-size: 4em;
+  }
+  .phone {
+    transform: rotate(6deg);
+    padding: 0;
+    margin-top: -1em;
+  }
+  .bg-green{
+    margin-top: -1em;
+  }
+}

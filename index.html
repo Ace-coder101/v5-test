@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSS grind">
+    <meta name="author" content="GJG">
+    <title>CSS grind</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--link rel="stylesheet" href="1.css/base.css">
+    <link rel="stylesheet" href="2.css/grid.css">
+    <link rel="stylesheet" href="3.css/tafla.css">
+    <link rel="stylesheet" href="4.css/custom.css">
+    <link rel="stylesheet" href="5.css/icomoon.css">
+    <link rel="stylesheet" href="6.css/topmenu.css">
+    <link rel="stylesheet" href="7.css/download.css"-->
+    <!--Allar stílsíðurnar eru síðan þjappaðar í eina stílsíðu -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animation.css">
+
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+</head>
+<body id="top">
+  <nav class="topnav">
+    <input type="checkbox" id="toggle" class="menuInput">
+    <label for="toggle" class="menuLabel">&#9776;</label>
+      <ul class="topmenu">
+        <li><a href="#" style="color: antiquewhite;"><span class="icon-home"></span> Home</a></li>
+        <li><a href="#" style="color: antiquewhite;"><span class="icon-pacman"></span> About</a></li>
+        <li><a href="#" style="color: antiquewhite;"><span class="icon-skype"></span> Services</a></li>
+        <li><a href="#" style="color: antiquewhite;"><span class="icon-phone"></span>Contact</a></li>
+      </ul>
+  </nav>
+  <div class="intro welcome">
+    <span id="splash-overlay" class="splash"></span>
+    <span id="welcome" class="z-depth-4"></span>
+
+  <header class="container" id="top">
+    <section class="landing">
+      <div>
+      <img src="images/rwd-logo.svg">
+      <h1>Stop coding non-structured web sites.<br> Let's do it right.</h1>
+      <a class="button button-primary" href="http://vefhonnun.github.io">Do it yourself</a>
+    </div>
+    <div>
+    <img src="images/mobile.png" alt="phone" class="phone">
+    </div>
+    </section>
+  </header>
+  <main>
+    <section class="bg-green">
+      <div class="container col-3">
+        <div class="value">
+          <h1>67%</h1>
+          <h3>Purchase Increase</h3>
+          <p>Percentage of users more likely to purchase<br> on mobile friendly site.</p>
+        </div>
+        <div class="value">
+          <h1>90%</h1>
+          <h3>Multi-device Users</h3>
+          <p>Most of the world accesses the internet<br> on multiple devices.</p>
+        </div>
+        <div class="value">
+          <h1>66%</h1>
+          <h3>Sad Users</h3>
+          <p>Percentage of users that are frustrated<br> with page load times.</p>
+        </div>
+    </div>
+    </section>
+    <section class="container col-2">
+      <div>
+        <article>
+          <h1>Fyrirsögn</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+          <h3>Millifyrirsögn</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+          <h2>Undirfyrirsögn</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+          <h4>Áherslutexti</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+          <h5>Undirmálstexti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est, reprehenderit labore rerum ratione aliquid illum! Officia nisi esse dolor quis sed porro, amet doloribus, qui odio quas voluptatibus blanditiis.</h5>
+        <h6>Neðamálstexti. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil eveniet minima porro numquam eligendi totam nulla voluptate odit facere aut quo iste veniam, impedit non quisquam cupiditate, earum architecto quas!</h6>
+        </article>
+      </div>
+        <div><img src="images/placeholder.png">
+          <h3>Millifyrirsögn</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>  
+          <h4>Áherslutexti</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis nisi. Corporis cupiditate ipsa illo eligendi id quisquam eveniet porro illum facilis, provident perferendis obcaecati eos amet dolorem iste odit.</p>
+          <h5>Undirmálstexti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est, reprehenderit labore rerum ratione aliquid illum! Officia nisi esse dolor quis sed porro, amet doloribus, qui odio quas voluptatibus blanditiis.</h5>
+        </div>
+        <ul>
+          <li><a href="#.pdf">PDF Document</a></li>
+          <li><a href="#.doc">Word Document</a></li>
+          <li><a href="#.jpg">Image File</a></li>
+          <li><a href="#.mp3">Audio File</a></li>
+          <li><a href="#.mp4">Video File</a></li>
+        </ul>
+        <a href="https://learn.shayhowe.com/advanced-html-css/complex-selectors/#attribute-selectors">Heimild.</a>
+    </section>
+    <section class="container table">
+    <table>
+      <caption>Dagskrá</caption>
+      <thead>
+          <tr>
+              <th scope="col">WHO</th>
+              <th scope="col">WHERE</th>
+              <th scope="col">WHEN</th>
+              <th scope="col">CHECK-IN</th>
+          </tr>
+          <!-- The scope attribute specifies whether a header cell is a header for a column, row, or group of columns or rows.
+          Note: The scope attribute has no visual effect in ordinary web browsers, but can be used by screen readers. -->
+      </thead>
+      <tbody>
+          <tr>
+              <td scope="row" data-label="WHO">obcaecati deleniti </td>
+              <td data-label="WHERE">Lorem ipsum dolor, adipisicing elit</td>
+              <td data-label="WHEN">10:30-12:30</td>
+              <td data-label="CHECK-IN"><button class="button-primary">Register</button></td>
+          </tr>
+          <tr>
+              <td scope="row" data-label="WHO">Sit amet consectutur </td>
+              <td data-label="WHERE">Dolor saepe odio</td>
+              <td data-label="WHEN">13:30-17:00</td>
+              <td data-label="CHECK-IN"><button class="button-primary">Register</button></td>
+          </tr>
+          <tr>
+              <td scope="row" data-label="WHO">Fuga corrupti commodi optio </td>
+              <td data-label="WHERE">Non eius odit,animi alias adisci</td>
+              <td data-label="WHEN">22:30-00:00</td>
+              <td data-label="CHECK-IN"><button class="button-primary">Register</button></td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="WHO">obcaecati deleniti </td>
+            <td data-label="WHERE">Lorem ipsum dolor, adipisciing elit</td>
+            <td data-label="WHEN">10:30-12:00</td>
+            <td data-label="CHECK-IN"><button class="button-primary">Register</button></td>
+        </tr>
+      </tbody>
+  </table>
+</section>
+
+<section class="bgimage" id="contact us">
+  <div class="container">
+    <h2>Contact us</h2>
+    <div class="col-2">
+      <figure>
+        <img src="images/placeholder.png">
+      </figure>
+<form action="" method="get" class="register">
+  <div>
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name" required placeholder="Nafn">
+  </div>
+  <div>
+    <label for="address">Address: </label>
+    <input type="text" name="address" id="address" required placeholder="Heimilisfang">
+  </div>
+  <div>
+    <label for="Email">Email: </label>
+    <input type="email" name="email" id="email" required placeholder="Tölvupóstur">
+  </div>
+  <div>
+    <!--pattern="\d{3}(?:[\-\s]?)\d{4}"-->
+
+    <label for="Simi">Simi</label>
+    <input type="tel" 
+    name="simi" id="simi" 
+    required placeholder="Simi" 
+  </div>
+  <h4>Gender/Kyn</h4>
+  <div>
+    <label for="male">Male / KK: </label>
+    <input type="radio" name="male" id="gender" value="Male">
+    <label for="female">Female / HK: </label>
+    <input type="radio" name="male" id="gender2" value="Female">
+    <label for="male">other / XK: </label>
+    <input type="radio" name="male" id="gender3" value="Xmale">
+  </div>
+  <div>
+    <h4 Veldu allt eða ekkert></h4>
+    <label for="mood">Vara 1</label>
+    <input type="checkbox" name="val" value="Vara 1">
+    <label for="val">Vara 2</label>
+    <input type="checkbox" name="val" value="Vara 2">
+    <label for="val">Vara 3</label>
+    <input type="checkbox" name="val" value="Vara 3">
+  </div>
+  <div class="col-2">
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+    <option value="mercedez">Mercedez</option>
+    <option value="toyota">Toyota</option>
+    <option value="hyandai">Hyandai</option>
+    <option value="honda">Honda</option>
+    <option value="BMW">BMW</option>
+    <option value="renault">Renault</option>
+    </select>
+  </div>
+  <div class="col-2">
+    <label for="Birthday">Birthday: </label>
+    <input type="date" id="birthday" name="birthday">
+  </div>
+
+  <div>
+    <textarea cols="" placeholder="comment" rows="10"></textarea>
+  </div>
+  <div>
+    <input type="submit" value="Subscribe!">
+  </div>
+</form>
+    </div>
+  </div>
+</section>
+<section class="col-2 container">
+  <div>
+    <img src="images/placeholder.png">
+  </div>
+  <div>
+    <form action="" method="get" class="login">
+  <div>
+    <label for="username">Username: </label>
+    <input type="text" name="Username" id="username" required placeholder="Username">
+  </div>
+  <div>
+    <label for="password">Password: </label>
+    <input type="password" name="password" id="password" required placeholder="lykilorð">
+  </div>
+  <p>
+    <input type="submit" value="Login">
+  </p>
+    </form>
+  </div> 
+</section>
+<div class="container">
+  <p>Basic RWD design is the best resolution.</p>
+  <div class="col-3 ">
+    <figure>
+      <img src="images/placeholder.png">
+    </figure>
+    <figure>
+      <img src="images/placeholder.png">
+    </figure>
+    <figure>
+      <img src="images/placeholder.png">
+    </figure>
+  </div>
+</div>
+  <div class="bgfooter">
+   <footer class="container col-3 footer-top">
+    <ul>
+      <li><a href="#" class="foot"></a><span class="icon-rwd-logosvhv"></span> Lorem, ipsum dolor sit amet.</li>
+      <li><a href="#" class="foot"></a><span class="icon-rwd-logosvhv"></span> Sequui unde consequator</li>
+      <li><a href="#" class="foot"></a><span class="icon-rwd-logosvhv"></span> Voluptatem velit recunsandae</li>
+      <li><a href="#" class="foot"></a><span class="icon-rwd-logosvhv"></span> Explicabo plaesantium ad!</li>
+    </ul>
+    <ul class="foot">
+      <li><a href="#" class="foot" ></a><span class="icon-facebook2"></span> Facebook</a></li>
+      <li><a href="#" class="foot" ><span class="icon-instagram"></span> Instagram</a></li>
+      <li><a href="#" class="foot" ><span class="icon-youtube"></span> Youtube</a></li>
+      <li><a href="#" class="foot" ><span class="icon-whatsapp"></span> Whatsapp</a></li>
+    </ul>
+
+    <dl>
+      <dt><span class="icon-rwd-logosvhv"></span>Nafn:</dt>
+      <dd>Emeka Emmanuel Anuebunwa</dd>
+      <dt><span class="icon-rwd-logosvhv"></span>Tölvupost:</dt>
+      <dd>Anuebunwaemmanuel@gmail.com</dd>
+      <dt><span class="icon-rwd-logosvhv"></span>vefþhönnun:</dt>
+      <dd>vefhonnun/22V-s2</dd>
+    </dl>
+   </footer> 
+  </div> 
+  <div>
+    <p class="centre"><a href=#top class="button">Efst á síðu</a></p>
+  </div>
+</div>
+</body>  
+</html>
+
